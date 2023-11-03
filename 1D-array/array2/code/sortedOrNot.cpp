@@ -28,9 +28,12 @@ int main()
             break;
         }
     }
+
+    // Printing the result
     if (flag == false)
         cout << "The array/vector is not sorted";
     else
         cout << "The array/vector is sorted";
+
     return 0;
 }
